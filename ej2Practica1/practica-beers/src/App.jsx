@@ -1,5 +1,7 @@
 import AvailableBeer from "./components/availableBeers/AvailableBeers";
+import BeerStyles from "./components/beerStyles/BeerStyles";
 import Beers from "./components/beers/Beers";
+import RedEIpa from "./components/redIpaBeers/RedAndIpaBeers";
 
 const beers = [
   {
@@ -73,6 +75,10 @@ const App = () => {
     <Beers beers={beers}/>
     <h1>Cervezas disponibles: </h1>
     <AvailableBeer beers={beers}/>
+    <h1>Cantidad de cervezas estilo IPA y Red:</h1>
+    <RedEIpa beers={beers}/>
+    <h1>Estilos disponibles:</h1>
+    <BeerStyles beers={beers}/>
     </>
   );
 };
