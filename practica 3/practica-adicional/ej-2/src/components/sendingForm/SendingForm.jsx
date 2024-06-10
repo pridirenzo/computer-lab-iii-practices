@@ -13,8 +13,6 @@ const SendingForm = () => {
     }
   };
 
-  console.log(message); // Esto se ejecutará cada vez que el componente se renderice
-
   return (
     <>
       <h2>Seleccione el tipo de envío: </h2>
